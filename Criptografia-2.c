@@ -70,15 +70,15 @@ int main()
 
     // Solicitar a posição inicial dos rotores
     printf("Digite o número de posição inicial para o rotor 1 (0-25): ");
-    scanf("%d", &posRotor1);
+    scanf_s("%d", &posRotor1);
     printf("Digite o número de posição inicial para o rotor 2 (0-25): ");
-    scanf("%d", &posRotor2);
+    scanf_s("%d", &posRotor2);
     printf("Digite o número de posição inicial para o rotor 3 (0-25): ");
-    scanf("%d", &posRotor3);
+    scanf_s("%d", &posRotor3);
 
     // Solicitar a mensagem a ser criptografada
     printf("Digite a mensagem a ser criptografada (em letras maiúsculas): ");
-    scanf(" %[^\n]", mensagem);
+    scanf_s(" %[^\n]", mensagem);
 
     tamanho = strlen(mensagem);
 
